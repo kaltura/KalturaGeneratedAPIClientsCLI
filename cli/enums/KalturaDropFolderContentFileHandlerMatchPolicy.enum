@@ -1,0 +1,1 @@
+a:3:{i:0;a:2:{s:4:"name";s:10:"ADD_AS_NEW";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:28:"MATCH_EXISTING_OR_ADD_AS_NEW";s:5:"value";s:1:"2";}i:2;a:2:{s:4:"name";s:32:"MATCH_EXISTING_OR_KEEP_IN_FOLDER";s:5:"value";s:1:"3";}}

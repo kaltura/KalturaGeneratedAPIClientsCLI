@@ -1,0 +1,1 @@
+a:4:{i:0;a:2:{s:4:"name";s:12:"NOT_REQUIRED";s:5:"value";s:1:"0";}i:1;a:2:{s:4:"name";s:20:"REQUIRED_BY_PROVIDER";s:5:"value";s:1:"1";}i:2;a:2:{s:4:"name";s:19:"REQUIRED_BY_PARTNER";s:5:"value";s:1:"2";}i:3;a:2:{s:4:"name";s:35:"REQUIRED_FOR_AUTOMATIC_DISTRIBUTION";s:5:"value";s:1:"3";}}

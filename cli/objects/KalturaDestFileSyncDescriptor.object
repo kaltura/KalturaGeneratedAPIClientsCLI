@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:17:"fileSyncLocalPath";a:2:{s:4:"name";s:17:"fileSyncLocalPath";s:4:"type";s:6:"string";}s:17:"fileSyncRemoteUrl";a:2:{s:4:"name";s:17:"fileSyncRemoteUrl";s:4:"type";s:6:"string";}s:21:"fileSyncObjectSubType";a:2:{s:4:"name";s:21:"fileSyncObjectSubType";s:4:"type";s:3:"int";}}s:12:"derivedTypes";a:1:{i:0;s:29:"KalturaDestFileSyncDescriptor";}}

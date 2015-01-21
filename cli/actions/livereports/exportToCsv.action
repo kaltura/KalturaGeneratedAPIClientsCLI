@@ -1,0 +1,1 @@
+a:2:{s:10:"reportType";a:3:{s:4:"name";s:10:"reportType";s:4:"type";s:3:"int";s:8:"enumType";s:27:"KalturaLiveReportExportType";}s:6:"params";a:2:{s:4:"name";s:6:"params";s:4:"type";s:29:"KalturaLiveReportExportParams";}}

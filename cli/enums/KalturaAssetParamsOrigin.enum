@@ -1,0 +1,1 @@
+a:3:{i:0;a:2:{s:4:"name";s:7:"CONVERT";s:5:"value";s:1:"0";}i:1;a:2:{s:4:"name";s:6:"INGEST";s:5:"value";s:1:"1";}i:2;a:2:{s:4:"name";s:20:"CONVERT_WHEN_MISSING";s:5:"value";s:1:"2";}}

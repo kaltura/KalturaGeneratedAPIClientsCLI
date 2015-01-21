@@ -1,0 +1,1 @@
+a:5:{s:9:"partnerId";a:2:{s:4:"name";s:9:"partnerId";s:4:"type";s:3:"int";}s:6:"userId";a:2:{s:4:"name";s:6:"userId";s:4:"type";s:6:"string";}s:8:"password";a:2:{s:4:"name";s:8:"password";s:4:"type";s:6:"string";}s:6:"expiry";a:2:{s:4:"name";s:6:"expiry";s:4:"type";s:3:"int";}s:10:"privileges";a:2:{s:4:"name";s:10:"privileges";s:4:"type";s:6:"string";}}

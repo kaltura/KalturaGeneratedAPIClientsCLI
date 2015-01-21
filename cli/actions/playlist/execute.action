@@ -1,0 +1,1 @@
+a:4:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:6:"string";}s:8:"detailed";a:2:{s:4:"name";s:8:"detailed";s:4:"type";s:6:"string";}s:15:"playlistContext";a:2:{s:4:"name";s:15:"playlistContext";s:4:"type";s:14:"KalturaContext";}s:6:"filter";a:2:{s:4:"name";s:6:"filter";s:4:"type";s:34:"KalturaMediaEntryFilterForPlaylist";}}
