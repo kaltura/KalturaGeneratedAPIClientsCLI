@@ -1,6 +1,6 @@
 #!/bin/bash -e
 cd `dirname $0`
-PREFIX=/opt/kaltura1
+PREFIX=~/kaltura1
 mkdir -p $PREFIX
 cp -r . $PREFIX/cli
 cd $PREFIX/cli
