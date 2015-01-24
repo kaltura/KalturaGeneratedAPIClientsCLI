@@ -6,10 +6,8 @@ cp -r . $PREFIX/cli
 cd $PREFIX/cli
 sed -i "s#@BASEDIR@#$PREFIX/cli#g" kalcliAliases.sh kalcliAutoComplete logToCli
 shopt -s expand_aliases
-ln -sf $PREFIX/cli/kalcliAutoComplete /etc/bash_completion.d/
-. /etc/bash_completion.d/kalcliAutoComplete 
-ln -sf $PREFIX/cli/kalcliAliases.sh /etc/profile.d/
-. /etc/profile.d/kalcliAliases.sh
+. $PREFIX/cli/kalcliAutoComplete
+. $PREFIX/cli/kalcliAliases.sh
 echo "[general]
 ipSalt = @APP_REMOTE_ADDR_HEADER_SALT@
 apiHost = 54.159.220.35
