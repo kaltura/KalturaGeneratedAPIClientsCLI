@@ -16,13 +16,9 @@ sed -i "s#@BASEDIR@#$PREFIX/cli#g" kalcliAliases.sh kalcliAutoComplete logToCli
 shopt -s expand_aliases
 . $PREFIX/cli/kalcliAutoComplete
 . $PREFIX/cli/kalcliAliases.sh
-#echo "[general]
-#ipSalt = @APP_REMOTE_ADDR_HEADER_SALT@
-#apiHost = $API_HOST
-#logDir = $PREFIX/log
-#[presetRepository]
-#class = KalturaPresetSecretRepository
-#$PARTNER_ID = $ADMIN_SECRET" > $PREFIX/cli/config/config.ini
+if [ `id -u` = 0 ] ;then 
+    ln -sf $PREFIX/cli/kalcliAutoComplete /etc/bash_completion.d/
+    ln -sf $PREFIX/cli/kalcliAliases.sh /etc/profile.d/
+fi
 sed  -e "s#@API_HOST@#$API_HOST#g" -e "s#@LOG_DIR@#$PREFIX/log#g" -e "s#@PARTNER_ID@#$PARTNER_ID#g" -e "s#@YOUR_ADMIN_SECRET@#$ADMIN_SECRET#g" $PREFIX/cli/config/config.template.ini > $PREFIX/cli/config/config.ini
-kalcli -x media list ks=`genks -b $PARTNER_ID`
-kalcli -x baseentry list ks=`genks -b $PARTNER_ID`
+cd -
