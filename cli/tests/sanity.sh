@@ -1,4 +1,7 @@
 #!/bin/bash - 
+if [ -r `dirname $0`/colors.sh ];then
+    . `dirname $0`/colors.sh
+fi
 if [ $# -lt 2 ];then
     echo "Usage: $1 </path/cli/lib/prefix> <partner_id>"
     exit 1
@@ -19,9 +22,9 @@ inc_counter()
 	FAILED=`expr $FAILED + 1`
     fi
 }
-echo "######### Running tests ###########"
+echo -e "${BRIGHT_BLUE}######### Running tests ###########${NORMAL}"
 kalcli -x media list ks=`genks -b $PARTNER_ID`
 inc_counter $?
 kalcli -x baseentry list ks=`genks -b $PARTNER_ID`
 inc_counter $?
-echo "PASSED tests: $PASSED, FAILED tests: $FAILED"
+echo -e "${BRIGHT_GREEN}PASSED tests: $PASSED ${NORMAL}, ${BRIGHT_RED}FAILED tests: $FAILED ${NORMAL}"
