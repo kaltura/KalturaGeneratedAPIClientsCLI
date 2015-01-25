@@ -1,5 +1,6 @@
 #!/bin/bash - 
 PREFIX=$1
+shopt -s expand_aliases
 . $PREFIX/cli/kalcliAutoComplete
 . $PREFIX/cli/kalcliAliases.sh
 echo "######### Running tests ###########"
