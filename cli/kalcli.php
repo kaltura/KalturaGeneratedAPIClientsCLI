@@ -69,15 +69,12 @@ function formatResponse($resp, $indent = '', $varName = null)
 		foreach ($resp as $index => $elem)
 		{
 			list($value, $internalReturnCode) = formatResponse($elem, $indent . "\t", $index);
-var_dump($value);
 			$result .= "\n{$indent}\t{$index}\t{$value}";
 		}
-var_dump($result);	
 		if ($indent == "" && isset($resp['objectType']) && strpos($resp['objectType'], 'Exception') !== false)
 		{
 			$returnCode = 1;
 		}
-var_dump($result);		
 		return array($result, $returnCode);
 		
 	case 'object':
