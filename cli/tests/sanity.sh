@@ -30,4 +30,8 @@ kalcli -x baseentry list ks=$KS
 inc_counter $?
 kalcli -x  partner register partner:objectType=KalturaPartner partner:name=apartner partner:adminName=apartner partner:adminEmail=partner@example.com partner:description=someone cmsPassword=partner012
 inc_counter $?
+TOKEN=`kalcli -x uploadtoken add uploadToken:objectType=KalturaUploadToken uploadToken:fileName=`dirname $0`/DemoVideo.flv  ks=$KS|grep id |awk -F " " '{print $2}'`
+inc_counter $?
+kalcli -x uploadtoken upload fileData=@`dirname $0`/DemoVideo.flv uploadTokenId=$TOKEN ks=$KS
+inc_counter $?
 echo -e "${BRIGHT_GREEN}PASSED tests: $PASSED ${NORMAL}, ${BRIGHT_RED}FAILED tests: $FAILED ${NORMAL}"
