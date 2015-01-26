@@ -37,3 +37,6 @@ inc_counter $?
 kalcli -x baseentry updateThumbnailFromSourceEntry  entryId=$SOME_ENTRY_ID sourceEntryId=$SOME_ENTRY_ID ks=$KS  timeOffset=3
 inc_counter $?
 echo -e "${BRIGHT_GREEN}PASSED tests: $PASSED ${NORMAL}, ${BRIGHT_RED}FAILED tests: $FAILED ${NORMAL}"
+if [ "$FAILED" -gt 0 ];then
+    exit 1
+fi
