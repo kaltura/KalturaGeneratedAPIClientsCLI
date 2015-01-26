@@ -30,9 +30,9 @@ SOME_ENTRY_ID=`kalcli -x baseentry list pager:objectType=KalturaFilterPager page
 inc_counter $?
 kalcli -x  partner register partner:objectType=KalturaPartner partner:name=apartner partner:adminName=apartner partner:adminEmail=partner@example.com partner:description=someone cmsPassword=partner012
 inc_counter $?
-TOKEN=`kalcli -x uploadtoken add uploadToken:objectType=KalturaUploadToken uploadToken:fileName=`dirname $0`/DemoVideo.flv  ks=$KS|grep id |awk -F " " '{print $2}'`
+TOKEN=`kalcli -x uploadtoken add uploadToken:objectType=KalturaUploadToken uploadToken:fileName="`dirname $0`/DemoVideo.flv"  ks=$KS|grep id |awk -F " " '{print $2}'`
 inc_counter $?
-kalcli -x uploadtoken upload fileData=@`dirname $0`/DemoVideo.flv uploadTokenId=$TOKEN ks=$KS
+kalcli -x uploadtoken upload fileData=@"`dirname $0`/DemoVideo.flv" uploadTokenId=$TOKEN ks=$KS
 inc_counter $?
 kalcli -x baseentry updateThumbnailFromSourceEntry  entryId=$SOME_ENTRY_ID sourceEntryId=$SOME_ENTRY_ID ks=$KS  timeOffset=3
 inc_counter $?
