@@ -9,8 +9,8 @@ fi
 PREFIX=$1
 PARTNER_ID=$2
 shopt -s expand_aliases
-. $PREFIX/cli/kalcliAutoComplete
-. $PREFIX/cli/kalcliAliases.sh
+. $PREFIX/kalcliAutoComplete
+. $PREFIX/kalcliAliases.sh
 PASSED=0
 FAILED=0
 inc_counter()
@@ -23,8 +23,11 @@ inc_counter()
     fi
 }
 echo -e "${BRIGHT_BLUE}######### Running tests ###########${NORMAL}"
-kalcli -x media list ks=`genks -b $PARTNER_ID`
+KS=`genks -b $PARTNER_ID`
+kalcli -x media list ks=$KS
 inc_counter $?
-kalcli -x baseentry list ks=`genks -b $PARTNER_ID`
+kalcli -x baseentry list ks=$KS
+inc_counter $?
+kalcli -x  partner register partner:objectType=KalturaPartner partner:name=apartner partner:adminName=apartner partner:adminEmail=partner@example.com partner:description=someone cmsPassword=partner012
 inc_counter $?
 echo -e "${BRIGHT_GREEN}PASSED tests: $PASSED ${NORMAL}, ${BRIGHT_RED}FAILED tests: $FAILED ${NORMAL}"

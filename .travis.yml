@@ -3,4 +3,4 @@ php:
   - "5.5"
   - "5.4"
   - "5.3"
-script: ./cli/setmeup.sh ~/kaltura 54.159.220.35 101 0567e52a030ebc2ccb73b386aa1800e0 && ./cli/tests/sanity.sh ~/kaltura 101
+script: ./cli/setup.sh ~/kaltura/cli 54.159.220.35 101 0567e52a030ebc2ccb73b386aa1800e0 && ./cli/tests/sanity.sh ~/kaltura/cli 101
