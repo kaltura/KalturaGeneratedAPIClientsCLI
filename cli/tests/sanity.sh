@@ -30,13 +30,13 @@ kalcli -x media list ks=$KS
 inc_counter $?
 SOME_ENTRY_ID=`kalcli -x baseentry list pager:objectType=KalturaFilterPager pager:pageSize=1 filter:objectType=KalturaBaseEntryFilter   filter:typeEqual=1 ks=$KS|grep "^\s*id" |awk -F " " '{print $2}'`
 inc_counter $?
+kalcli -x baseentry updateThumbnailFromSourceEntry  entryId=$SOME_ENTRY_ID sourceEntryId=$SOME_ENTRY_ID ks=$KS  timeOffset=3
+inc_counter $?
 kalcli -x  partner register partner:objectType=KalturaPartner partner:name=apartner partner:adminName=apartner partner:adminEmail=partner@example.com partner:description=someone cmsPassword=partner012
 inc_counter $?
 TOKEN=`kalcli -x uploadtoken add uploadToken:objectType=KalturaUploadToken uploadToken:fileName=$TEST_FLV  ks=$KS|grep id -w -m1 |awk -F " " '{print $2}'`
 inc_counter $?
 kalcli -x uploadtoken upload fileData=@$TEST_FLV uploadTokenId=$TOKEN ks=$KS
-inc_counter $?
-kalcli -x baseentry updateThumbnailFromSourceEntry  entryId=$SOME_ENTRY_ID sourceEntryId=$SOME_ENTRY_ID ks=$KS  timeOffset=3
 inc_counter $?
 TEST_CAT_NAM=testme012
 kalcli -x category add category:objectType=KalturaCategory category:name=$TEST_CAT_NAM  ks=$KS
