@@ -49,9 +49,7 @@ if [ $RC -eq 0 ];then
     else
 	inc_counter 1
     fi
-    set -x
     CAT_ID=`kalcli -x category list filter:objectType=KalturaCategoryFilter filter:fullNameEqual=$TEST_CAT_NAM ks=$KS|grep -w id -m1|awk -F " " '{print $2}'`
-    set +x
     kalcli -x category delete  id=$CAT_ID ks=$KS
     inc_counter $?
 fi
