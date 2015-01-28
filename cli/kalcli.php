@@ -44,8 +44,6 @@ function formatResponse($resp, $indent = '', $varName = null)
 {
 	global $DATE_FIELD_SUFFIXES;
 	
-	$returnCode = 0;
-	
 	switch (gettype($resp))
 	{
 	case 'integer':
@@ -54,7 +52,7 @@ function formatResponse($resp, $indent = '', $varName = null)
 			foreach ($DATE_FIELD_SUFFIXES as $dateSuffix)
 			{
 				if (substr($varName, -strlen($dateSuffix)) === $dateSuffix) 
-					return array("{$resp}\t(" . date('Y-m-d H:i:s', $resp) . ")", $returnCode);						
+					return "{$resp}\t(" . date('Y-m-d H:i:s', $resp) . ")";						
 			}
 		}
 		
@@ -62,20 +60,16 @@ function formatResponse($resp, $indent = '', $varName = null)
 	case 'double':
 	case 'string':
 	case 'NULL':
-		return array((string)$resp, $returnCode);
+		return (string)$resp;
 		
 	case 'array':
 		$result = "array";
 		foreach ($resp as $index => $elem)
 		{
-			list($value, $internalReturnCode) = formatResponse($elem, $indent . "\t", $index);
+			$value = formatResponse($elem, $indent . "\t", $index);
 			$result .= "\n{$indent}\t{$index}\t{$value}";
 		}
-		if ($indent == "" && isset($resp['objectType']) && strpos($resp['objectType'], 'Exception') !== false)
-		{
-			$returnCode = 1;
-		}
-		return array($result, $returnCode);
+		return $result;
 		
 	case 'object':
 		$properties = get_object_vars($resp);
@@ -85,10 +79,10 @@ function formatResponse($resp, $indent = '', $varName = null)
 		{
 			if ($name == '__PHP_Incomplete_Class_Name')
 				continue;
-			list($value, $internalReturnCode) = formatResponse($value, $indent . "\t", $name);
+			$value = formatResponse($value, $indent . "\t", $name);
 			$result .= "\n{$indent}\t{$name}\t{$value}";
 		}
-		return array($result, $returnCode);
+		return $result;
 	}
 }
 
@@ -134,7 +128,7 @@ if (count($arguments) < 2)
 $service = trim($arguments[0]);
 $action = trim($arguments[1]);
 
-$params = array('clientTag' => 'kalcli:14-12-16');
+$params = array('clientTag' => 'kalcli:15-01-27');
 $extraArgCount = count($arguments);
 for ($curIndex = 2; $curIndex < $extraArgCount; $curIndex++)
 {
@@ -268,7 +262,6 @@ if (isset($options['log']))
 
 // issue the request
 $result = $curlWrapper->getUrl($url, $params);
-$returnCode = $result === false ? 1 : 0;
 
 if (isset($options['log']))
 {
@@ -296,8 +289,7 @@ if (!isset($options['head']))
 		$unserializedResult = @unserialize($result);
 		if ($unserializedResult !== false || $result === 'b:0;')
 		{
-			list($result, $returnCode) = formatResponse($unserializedResult);
-			$result .= "\n";
+			$result = formatResponse($unserializedResult) . "\n";
 		}
 	}
 	echo $result;
@@ -305,5 +297,3 @@ if (!isset($options['head']))
 
 if (isset($options['time']) && !is_null($curlWrapper->totalTime))
 	echo "execution time\t{$curlWrapper->totalTime}\n";
-
-exit($returnCode);
