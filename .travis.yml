@@ -3,4 +3,4 @@ php:
   - "5.5"
   - "5.4"
   - "5.3"
-script: ./cli/setup.sh ~/kaltura/cli @API_HOST@ @PARTNER_ID@ @YOUR_ADMIN_SECRET@ && ./cli/tests/sanity.sh ~/kaltura/cli @PARTNER_ID@
+script: ./cli/setup.sh ~/kaltura/cli 54.159.220.35 101 e068809c752fb5f311217eb3da3bc74d && ./cli/tests/sanity.sh ~/kaltura/cli 101
