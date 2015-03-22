@@ -7,4 +7,5 @@ code is under generator/sources/cli
 
 [![Build Status](https://travis-ci.org/kaltura/KalturaGeneratedAPIClientsCLI.svg?branch=master)](https://travis-ci.org/kaltura/KalturaGeneratedAPIClientsCLI)
 
+TESTING HOOK
 
