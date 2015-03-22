@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:3:"url";a:2:{s:4:"name";s:3:"url";s:4:"type";s:6:"string";}s:18:"forceAsyncDownload";a:2:{s:4:"name";s:18:"forceAsyncDownload";s:4:"type";s:4:"bool";}}s:12:"derivedTypes";a:3:{i:0;s:18:"KalturaUrlResource";i:1;s:28:"KalturaRemoteStorageResource";i:2;s:21:"KalturaSshUrlResource";}}

@@ -1,0 +1,1 @@
+a:4:{s:7:"partner";a:2:{s:4:"name";s:7:"partner";s:4:"type";s:14:"KalturaPartner";}s:11:"cmsPassword";a:2:{s:4:"name";s:11:"cmsPassword";s:4:"type";s:6:"string";}s:17:"templatePartnerId";a:2:{s:4:"name";s:17:"templatePartnerId";s:4:"type";s:3:"int";}s:6:"silent";a:2:{s:4:"name";s:6:"silent";s:4:"type";s:4:"bool";}}

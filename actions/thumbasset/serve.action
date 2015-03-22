@@ -1,0 +1,1 @@
+a:4:{s:12:"thumbAssetId";a:2:{s:4:"name";s:12:"thumbAssetId";s:4:"type";s:6:"string";}s:7:"version";a:2:{s:4:"name";s:7:"version";s:4:"type";s:3:"int";}s:11:"thumbParams";a:2:{s:4:"name";s:11:"thumbParams";s:4:"type";s:18:"KalturaThumbParams";}s:7:"options";a:2:{s:4:"name";s:7:"options";s:4:"type";s:28:"KalturaThumbnailServeOptions";}}
