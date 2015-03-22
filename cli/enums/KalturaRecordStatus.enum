@@ -1,1 +1,1 @@
-a:2:{i:0;a:2:{s:4:"name";s:8:"DISABLED";s:5:"value";s:1:"0";}i:1;a:2:{s:4:"name";s:7:"ENABLED";s:5:"value";s:1:"1";}}
+a:3:{i:0;a:2:{s:4:"name";s:8:"DISABLED";s:5:"value";s:1:"0";}i:1;a:2:{s:4:"name";s:8:"APPENDED";s:5:"value";s:1:"1";}i:2;a:2:{s:4:"name";s:11:"PER_SESSION";s:5:"value";s:1:"2";}}
