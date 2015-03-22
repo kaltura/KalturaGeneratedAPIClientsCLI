@@ -1,0 +1,1 @@
+a:3:{s:9:"partnerId";a:2:{s:4:"name";s:9:"partnerId";s:4:"type";s:3:"int";}s:6:"status";a:3:{s:4:"name";s:6:"status";s:4:"type";s:3:"int";s:8:"enumType";s:20:"KalturaPartnerStatus";}s:6:"reason";a:2:{s:4:"name";s:6:"reason";s:4:"type";s:6:"string";}}

@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:12:"providerType";a:3:{s:4:"name";s:12:"providerType";s:4:"type";s:6:"string";s:8:"enumType";s:45:"KalturaEmailNotificationRecipientProviderType";}s:18:"categoryUserFilter";a:2:{s:4:"name";s:18:"categoryUserFilter";s:4:"type";s:25:"KalturaCategoryUserFilter";}}s:12:"derivedTypes";a:1:{i:0;s:48:"KalturaEmailNotificationCategoryRecipientJobData";}}

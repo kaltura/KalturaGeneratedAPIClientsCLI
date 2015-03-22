@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:1:{s:11:"handlerType";a:3:{s:4:"name";s:11:"handlerType";s:4:"type";s:6:"string";s:8:"enumType";s:32:"KalturaDropFolderFileHandlerType";}}s:12:"derivedTypes";a:3:{i:0;s:34:"KalturaDropFolderFileHandlerConfig";i:1;s:41:"KalturaDropFolderContentFileHandlerConfig";i:2;s:47:"KalturaDropFolderXmlBulkUploadFileHandlerConfig";}}

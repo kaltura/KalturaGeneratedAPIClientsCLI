@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:1:{s:15:"emailRecipients";a:3:{s:4:"name";s:15:"emailRecipients";s:4:"type";s:5:"array";s:9:"arrayType";s:33:"KalturaEmailNotificationRecipient";}}s:12:"derivedTypes";a:1:{i:0;s:47:"KalturaEmailNotificationStaticRecipientProvider";}}

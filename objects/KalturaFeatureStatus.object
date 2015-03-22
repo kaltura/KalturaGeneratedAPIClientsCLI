@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:4:"type";a:3:{s:4:"name";s:4:"type";s:4:"type";s:3:"int";s:8:"enumType";s:24:"KalturaFeatureStatusType";}s:5:"value";a:2:{s:4:"name";s:5:"value";s:4:"type";s:3:"int";}}s:12:"derivedTypes";a:1:{i:0;s:20:"KalturaFeatureStatus";}}

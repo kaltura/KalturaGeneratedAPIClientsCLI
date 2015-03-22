@@ -1,0 +1,1 @@
+a:3:{s:11:"entryFilter";a:2:{s:4:"name";s:11:"entryFilter";s:4:"type";s:22:"KalturaBaseEntryFilter";}s:22:"captionAssetItemFilter";a:2:{s:4:"name";s:22:"captionAssetItemFilter";s:4:"type";s:29:"KalturaCaptionAssetItemFilter";}s:21:"captionAssetItemPager";a:2:{s:4:"name";s:21:"captionAssetItemPager";s:4:"type";s:18:"KalturaFilterPager";}}

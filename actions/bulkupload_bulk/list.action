@@ -1,0 +1,1 @@
+a:2:{s:16:"bulkUploadFilter";a:2:{s:4:"name";s:16:"bulkUploadFilter";s:4:"type";s:23:"KalturaBulkUploadFilter";}s:5:"pager";a:2:{s:4:"name";s:5:"pager";s:4:"type";s:18:"KalturaFilterPager";}}
