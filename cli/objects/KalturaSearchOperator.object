@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:2:{s:4:"type";a:3:{s:4:"name";s:4:"type";s:4:"type";s:3:"int";s:8:"enumType";s:25:"KalturaSearchOperatorType";}s:5:"items";a:3:{s:4:"name";s:5:"items";s:4:"type";s:5:"array";s:9:"arrayType";s:17:"KalturaSearchItem";}}s:12:"derivedTypes";a:2:{i:0;s:21:"KalturaSearchOperator";i:1;s:25:"KalturaMetadataSearchItem";}}

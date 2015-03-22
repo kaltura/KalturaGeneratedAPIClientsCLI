@@ -1,1 +1,0 @@
-a:4:{i:0;a:2:{s:4:"name";s:22:"ACL_AUTHENTICATED_READ";s:5:"value";s:18:"authenticated-read";}i:1;a:2:{s:4:"name";s:11:"ACL_PRIVATE";s:5:"value";s:7:"private";}i:2;a:2:{s:4:"name";s:15:"ACL_PUBLIC_READ";s:5:"value";s:11:"public-read";}i:3;a:2:{s:4:"name";s:21:"ACL_PUBLIC_READ_WRITE";s:5:"value";s:17:"public-read-write";}}

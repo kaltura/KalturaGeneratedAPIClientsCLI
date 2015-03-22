@@ -1,1 +1,0 @@
-a:4:{i:0;a:2:{s:4:"name";s:3:"CSV";s:5:"value";s:17:"bulkUploadCsv.CSV";}i:1;a:2:{s:4:"name";s:6:"FILTER";s:5:"value";s:23:"bulkUploadFilter.FILTER";}i:2;a:2:{s:4:"name";s:3:"XML";s:5:"value";s:17:"bulkUploadXml.XML";}i:3;a:2:{s:4:"name";s:15:"DROP_FOLDER_XML";s:5:"value";s:39:"dropFolderXmlBulkUpload.DROP_FOLDER_XML";}}

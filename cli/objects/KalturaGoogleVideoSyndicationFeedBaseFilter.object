@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:2:{s:7:"orderBy";a:2:{s:4:"name";s:7:"orderBy";s:4:"type";s:6:"string";}s:14:"advancedSearch";a:2:{s:4:"name";s:14:"advancedSearch";s:4:"type";s:17:"KalturaSearchItem";}}s:12:"derivedTypes";a:2:{i:0;s:43:"KalturaGoogleVideoSyndicationFeedBaseFilter";i:1;s:39:"KalturaGoogleVideoSyndicationFeedFilter";}}

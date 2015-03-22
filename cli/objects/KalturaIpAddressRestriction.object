@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:2:{s:24:"ipAddressRestrictionType";a:3:{s:4:"name";s:24:"ipAddressRestrictionType";s:4:"type";s:3:"int";s:8:"enumType";s:31:"KalturaIpAddressRestrictionType";}s:13:"ipAddressList";a:2:{s:4:"name";s:13:"ipAddressList";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:27:"KalturaIpAddressRestriction";}}

@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:4:{s:4:"left";a:2:{s:4:"name";s:4:"left";s:4:"type";s:3:"int";}s:3:"top";a:2:{s:4:"name";s:3:"top";s:4:"type";s:3:"int";}s:5:"width";a:2:{s:4:"name";s:5:"width";s:4:"type";s:3:"int";}s:6:"height";a:2:{s:4:"name";s:6:"height";s:4:"type";s:3:"int";}}s:12:"derivedTypes";a:1:{i:0;s:21:"KalturaCropDimensions";}}

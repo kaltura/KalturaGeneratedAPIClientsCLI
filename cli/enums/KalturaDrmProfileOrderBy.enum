@@ -1,1 +1,0 @@
-a:4:{i:0;a:2:{s:4:"name";s:6:"ID_ASC";s:5:"value";s:3:"+id";}i:1;a:2:{s:4:"name";s:8:"NAME_ASC";s:5:"value";s:5:"+name";}i:2;a:2:{s:4:"name";s:7:"ID_DESC";s:5:"value";s:3:"-id";}i:3;a:2:{s:4:"name";s:9:"NAME_DESC";s:5:"value";s:5:"-name";}}

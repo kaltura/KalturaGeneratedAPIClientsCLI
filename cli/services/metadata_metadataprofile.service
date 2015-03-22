@@ -1,1 +1,0 @@
-a:13:{i:0;s:3:"add";i:1;s:11:"addFromFile";i:2;s:3:"get";i:3;s:6:"update";i:4;s:4:"list";i:5;s:10:"listFields";i:6;s:6:"delete";i:7;s:6:"revert";i:8;s:24:"updateDefinitionFromFile";i:9;s:19:"updateViewsFromFile";i:10;s:28:"updateTransformationFromFile";i:11;s:5:"serve";i:12;s:9:"serveView";}

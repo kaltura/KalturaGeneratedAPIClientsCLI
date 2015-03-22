@@ -1,1 +1,0 @@
-a:5:{s:13:"uploadTokenId";a:2:{s:4:"name";s:13:"uploadTokenId";s:4:"type";s:6:"string";}s:8:"fileData";a:2:{s:4:"name";s:8:"fileData";s:4:"type";s:4:"file";}s:6:"resume";a:2:{s:4:"name";s:6:"resume";s:4:"type";s:4:"bool";}s:10:"finalChunk";a:2:{s:4:"name";s:10:"finalChunk";s:4:"type";s:4:"bool";}s:8:"resumeAt";a:2:{s:4:"name";s:8:"resumeAt";s:4:"type";s:5:"float";}}

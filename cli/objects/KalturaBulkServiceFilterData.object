@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:2:{s:6:"filter";a:2:{s:4:"name";s:6:"filter";s:4:"type";s:13:"KalturaFilter";}s:14:"templateObject";a:2:{s:4:"name";s:14:"templateObject";s:4:"type";s:17:"KalturaObjectBase";}}s:12:"derivedTypes";a:1:{i:0;s:28:"KalturaBulkServiceFilterData";}}

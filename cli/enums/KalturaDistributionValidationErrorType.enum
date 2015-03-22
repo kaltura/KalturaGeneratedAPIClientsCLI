@@ -1,1 +1,0 @@
-a:5:{i:0;a:2:{s:4:"name";s:12:"CUSTOM_ERROR";s:5:"value";s:1:"0";}i:1;a:2:{s:4:"name";s:12:"STRING_EMPTY";s:5:"value";s:1:"1";}i:2;a:2:{s:4:"name";s:15:"STRING_TOO_LONG";s:5:"value";s:1:"2";}i:3;a:2:{s:4:"name";s:16:"STRING_TOO_SHORT";s:5:"value";s:1:"3";}i:4;a:2:{s:4:"name";s:14:"INVALID_FORMAT";s:5:"value";s:1:"4";}}

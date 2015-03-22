@@ -1,1 +1,0 @@
-a:2:{i:0;a:2:{s:4:"name";s:14:"CREATED_AT_ASC";s:5:"value";s:10:"+createdAt";}i:1;a:2:{s:4:"name";s:15:"CREATED_AT_DESC";s:5:"value";s:10:"-createdAt";}}

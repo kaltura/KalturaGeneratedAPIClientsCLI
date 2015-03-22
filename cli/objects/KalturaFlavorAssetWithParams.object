@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:3:{s:11:"flavorAsset";a:2:{s:4:"name";s:11:"flavorAsset";s:4:"type";s:18:"KalturaFlavorAsset";}s:12:"flavorParams";a:2:{s:4:"name";s:12:"flavorParams";s:4:"type";s:19:"KalturaFlavorParams";}s:7:"entryId";a:2:{s:4:"name";s:7:"entryId";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:28:"KalturaFlavorAssetWithParams";}}

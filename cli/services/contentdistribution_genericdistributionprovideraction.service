@@ -1,1 +1,0 @@
-a:14:{i:0;s:3:"add";i:1;s:16:"addMrssTransform";i:2;s:24:"addMrssTransformFromFile";i:3;s:15:"addMrssValidate";i:4;s:23:"addMrssValidateFromFile";i:5;s:19:"addResultsTransform";i:6;s:27:"addResultsTransformFromFile";i:7;s:3:"get";i:8;s:15:"getByProviderId";i:9;s:18:"updateByProviderId";i:10;s:6:"update";i:11;s:6:"delete";i:12;s:18:"deleteByProviderId";i:13;s:4:"list";}

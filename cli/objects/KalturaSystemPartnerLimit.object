@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:2:{s:4:"type";a:3:{s:4:"name";s:4:"type";s:4:"type";s:6:"string";s:8:"enumType";s:29:"KalturaSystemPartnerLimitType";}s:3:"max";a:2:{s:4:"name";s:3:"max";s:4:"type";s:5:"float";}}s:12:"derivedTypes";a:2:{i:0;s:25:"KalturaSystemPartnerLimit";i:1;s:33:"KalturaSystemPartnerOveragedLimit";}}

@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:3:{s:15:"totalEntryCount";a:2:{s:4:"name";s:15:"totalEntryCount";s:4:"type";s:3:"int";}s:16:"actualEntryCount";a:2:{s:4:"name";s:16:"actualEntryCount";s:4:"type";s:3:"int";}s:23:"requireTranscodingCount";a:2:{s:4:"name";s:23:"requireTranscodingCount";s:4:"type";s:3:"int";}}s:12:"derivedTypes";a:1:{i:0;s:32:"KalturaSyndicationFeedEntryCount";}}

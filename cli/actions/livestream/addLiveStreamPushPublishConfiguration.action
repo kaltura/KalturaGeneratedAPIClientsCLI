@@ -1,1 +1,0 @@
-a:4:{s:7:"entryId";a:2:{s:4:"name";s:7:"entryId";s:4:"type";s:6:"string";}s:8:"protocol";a:3:{s:4:"name";s:8:"protocol";s:4:"type";s:6:"string";s:8:"enumType";s:23:"KalturaPlaybackProtocol";}s:3:"url";a:2:{s:4:"name";s:3:"url";s:4:"type";s:6:"string";}s:23:"liveStreamConfiguration";a:2:{s:4:"name";s:23:"liveStreamConfiguration";s:4:"type";s:30:"KalturaLiveStreamConfiguration";}}

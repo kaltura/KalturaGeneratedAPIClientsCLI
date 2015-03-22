@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:4:{s:7:"bitrate";a:2:{s:4:"name";s:7:"bitrate";s:4:"type";s:3:"int";}s:5:"width";a:2:{s:4:"name";s:5:"width";s:4:"type";s:3:"int";}s:6:"height";a:2:{s:4:"name";s:6:"height";s:4:"type";s:3:"int";}s:4:"tags";a:2:{s:4:"name";s:4:"tags";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:24:"KalturaLiveStreamBitrate";}}

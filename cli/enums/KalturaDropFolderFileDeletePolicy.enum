@@ -1,1 +1,0 @@
-a:3:{i:0;a:2:{s:4:"name";s:13:"MANUAL_DELETE";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:11:"AUTO_DELETE";s:5:"value";s:1:"2";}i:2;a:2:{s:4:"name";s:31:"AUTO_DELETE_WHEN_ENTRY_IS_READY";s:5:"value";s:1:"3";}}

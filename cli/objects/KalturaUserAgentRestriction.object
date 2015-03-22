@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:2:{s:24:"userAgentRestrictionType";a:3:{s:4:"name";s:24:"userAgentRestrictionType";s:4:"type";s:3:"int";s:8:"enumType";s:31:"KalturaUserAgentRestrictionType";}s:18:"userAgentRegexList";a:2:{s:4:"name";s:18:"userAgentRegexList";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:27:"KalturaUserAgentRestriction";}}

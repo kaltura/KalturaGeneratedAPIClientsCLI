@@ -1,1 +1,0 @@
-a:2:{s:10:"properties";a:2:{s:10:"categoryId";a:2:{s:4:"name";s:10:"categoryId";s:4:"type";s:18:"KalturaStringValue";}s:18:"categoryUserFilter";a:2:{s:4:"name";s:18:"categoryUserFilter";s:4:"type";s:33:"KalturaCategoryUserProviderFilter";}}s:12:"derivedTypes";a:1:{i:0;s:49:"KalturaEmailNotificationCategoryRecipientProvider";}}
