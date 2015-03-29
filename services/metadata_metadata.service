@@ -1,1 +1,1 @@
-a:12:{i:0;s:3:"add";i:1;s:11:"addFromFile";i:2;s:10:"addFromUrl";i:3;s:11:"addFromBulk";i:4;s:3:"get";i:5;s:6:"update";i:6;s:14:"updateFromFile";i:7;s:4:"list";i:8;s:6:"delete";i:9;s:10:"invalidate";i:10;s:5:"serve";i:11;s:13:"updateFromXSL";}
+a:13:{i:0;s:3:"add";i:1;s:11:"addFromFile";i:2;s:10:"addFromUrl";i:3;s:11:"addFromBulk";i:4;s:3:"get";i:5;s:6:"update";i:6;s:14:"updateFromFile";i:7;s:4:"list";i:8;s:6:"delete";i:9;s:10:"invalidate";i:10;s:5:"index";i:11;s:5:"serve";i:12;s:13:"updateFromXSL";}
