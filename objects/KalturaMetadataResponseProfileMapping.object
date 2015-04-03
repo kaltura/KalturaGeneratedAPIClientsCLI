@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:14:"parentProperty";a:2:{s:4:"name";s:14:"parentProperty";s:4:"type";s:6:"string";}s:14:"filterProperty";a:2:{s:4:"name";s:14:"filterProperty";s:4:"type";s:6:"string";}s:9:"allowNull";a:2:{s:4:"name";s:9:"allowNull";s:4:"type";s:4:"bool";}}s:12:"derivedTypes";a:1:{i:0;s:37:"KalturaMetadataResponseProfileMapping";}}
