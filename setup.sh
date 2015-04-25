@@ -22,4 +22,4 @@ if [ `id -u` = 0 ] ;then
     ln -sf $PREFIX/kalcliAutoComplete /etc/bash_completion.d/
     ln -sf $PREFIX/kalcliAliases.sh /etc/profile.d/
 fi
-sed  -e "s#54.163.254.64#$API_HOST#g" -e "s#~/kaltura/log#$PREFIX/log#g" -e "s#101#$PARTNER_ID#g" -e "s#066439f83615896a16efce529b84fcfb#$ADMIN_SECRET#g" $PREFIX/config/config.template.ini > $PREFIX/config/config.ini
+sed  -e "s#54.91.3.112#$API_HOST#g" -e "s#~/kaltura/log#$PREFIX/log#g" -e "s#101#$PARTNER_ID#g" -e "s#066439f83615896a16efce529b84fcfb#$ADMIN_SECRET#g" $PREFIX/config/config.template.ini > $PREFIX/config/config.ini
