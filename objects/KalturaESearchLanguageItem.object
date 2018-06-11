@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:1:{s:15:"eSerachLanguage";a:3:{s:4:"name";s:15:"eSerachLanguage";s:4:"type";s:6:"string";s:8:"enumType";s:22:"KalturaESearchLanguage";}}s:12:"derivedTypes";a:1:{i:0;s:26:"KalturaESearchLanguageItem";}}

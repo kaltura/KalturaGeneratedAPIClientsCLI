@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:14:"clipAttributes";a:2:{s:4:"name";s:14:"clipAttributes";s:4:"type";s:21:"KalturaClipAttributes";}s:14:"clippedEntryId";a:2:{s:4:"name";s:14:"clippedEntryId";s:4:"type";s:6:"string";}s:11:"liveEntryId";a:2:{s:4:"name";s:11:"liveEntryId";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:34:"KalturaClippingTaskEntryServerNode";}}

@@ -1,0 +1,1 @@
+a:3:{s:9:"scheduler";a:2:{s:4:"name";s:9:"scheduler";s:4:"type";s:16:"KalturaScheduler";}s:17:"schedulerStatuses";a:3:{s:4:"name";s:17:"schedulerStatuses";s:4:"type";s:5:"array";s:9:"arrayType";s:22:"KalturaSchedulerStatus";}s:18:"workerQueueFilters";a:3:{s:4:"name";s:18:"workerQueueFilters";s:4:"type";s:5:"array";s:9:"arrayType";s:24:"KalturaWorkerQueueFilter";}}

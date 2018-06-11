@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:1:{s:9:"highlight";a:3:{s:4:"name";s:9:"highlight";s:4:"type";s:5:"array";s:9:"arrayType";s:23:"KalturaESearchHighlight";}}s:12:"derivedTypes";a:4:{i:0;s:22:"KalturaESearchItemData";i:1;s:29:"KalturaESearchCaptionItemData";i:2;s:30:"KalturaESearchCuePointItemData";i:3;s:30:"KalturaESearchMetadataItemData";}}

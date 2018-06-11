@@ -1,0 +1,1 @@
+a:4:{s:7:"lockKey";a:2:{s:4:"name";s:7:"lockKey";s:4:"type";s:23:"KalturaExclusiveLockKey";}s:16:"maxExecutionTime";a:2:{s:4:"name";s:16:"maxExecutionTime";s:4:"type";s:3:"int";}s:12:"numberOfJobs";a:2:{s:4:"name";s:12:"numberOfJobs";s:4:"type";s:3:"int";}s:6:"filter";a:2:{s:4:"name";s:6:"filter";s:4:"type";s:21:"KalturaBatchJobFilter";}}

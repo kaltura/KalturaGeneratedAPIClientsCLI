@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:19:"videoAssetFilePaths";a:3:{s:4:"name";s:19:"videoAssetFilePaths";s:4:"type";s:5:"array";s:9:"arrayType";s:37:"KalturaFreewheelDistributionAssetPath";}s:18:"thumbAssetFilePath";a:2:{s:4:"name";s:18:"thumbAssetFilePath";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:43:"KalturaFreewheelDistributionJobProviderData";}}

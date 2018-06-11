@@ -4,7 +4,7 @@ if [ -r `dirname $0`/colors.sh ];then
     . `dirname $0`/colors.sh
 fi
 if [ $# -lt 2 ];then
-    echo "Usage: $1 </path/cli/lib/prefix> <partner_id>"
+    echo -e "${BRIGHT_RED}Usage: $0 </path/cli/lib/prefix> <partner_id>${NORMAL}"
     exit 1
 fi
 PREFIX=$1
@@ -23,7 +23,7 @@ inc_counter()
 	FAILED=`expr $FAILED + 1`
     fi
 }
-TEST_FLV="`dirname $0`/DemoVideo.flv"
+TEST_FLV="$PREFIX/tests/DemoVideo.flv"
 echo -e "${BRIGHT_BLUE}######### Running tests ###########${NORMAL}"
 KS=`genks -b $PARTNER_ID`
 kalcli -x media list ks=$KS
@@ -38,7 +38,9 @@ TOKEN=`kalcli -x uploadtoken add uploadToken:objectType=KalturaUploadToken uploa
 inc_counter $?
 kalcli -x uploadtoken upload fileData=@$TEST_FLV uploadTokenId=$TOKEN ks=$KS
 inc_counter $?
-TEST_CAT_NAM=testme012
+ENTRY_ID=`kalcli -x baseentry addFromUploadedFile uploadTokenId=$TOKEN partnerId=$PARTNER_ID ks=$KS entry:objectType=KalturaBaseEntry |awk '$1 == "id" {print $2}'`
+inc_counter $?
+TEST_CAT_NAM='testme'+$RANDOM
 kalcli -x category add category:objectType=KalturaCategory category:name=$TEST_CAT_NAM  ks=$KS
 RC=$?
 inc_counter $RC

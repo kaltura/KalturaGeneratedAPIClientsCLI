@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:8:"download";a:2:{s:4:"name";s:8:"download";s:4:"type";s:4:"bool";}s:8:"referrer";a:2:{s:4:"name";s:8:"referrer";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:29:"KalturaAttachmentServeOptions";}}

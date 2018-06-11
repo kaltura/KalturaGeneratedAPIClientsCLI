@@ -31,6 +31,8 @@ require_once(dirname(__file__) . '/KalturaSecretRepositoryBase.php');
 
 class KalturaDatabaseSecretRepository implements KalturaSecretRepositoryBase
 {
+	protected $cache = array();
+	
 	public function __construct($config)
 	{
 		$this->link = mysqli_connect($config['host'], $config['user'], $config['password'], $config['database'])
@@ -45,16 +47,27 @@ class KalturaDatabaseSecretRepository implements KalturaSecretRepositoryBase
 	protected function executeQuery($query)
 	{
 		$resultSet = mysqli_query($this->link, $query) or die('Error: Select query failed: ' . mysqli_error($this->link) . "\n");
-		$result = mysqli_fetch_array($resultSet, MYSQL_NUM);
+		// for php7 support.
+		$resulttype = defined('MYSQL_NUM') ? MYSQL_NUM : MYSQLI_NUM;
+		$result = mysqli_fetch_array($resultSet, $resulttype);
 		mysqli_free_result($resultSet);
 		return $result;
 	}
 
 	public function getAdminSecret($partnerId)
 	{
-		$results = $this->executeQuery("SELECT admin_secret FROM partner WHERE partner.ID = '".str_replace("'", "''", $partnerId)."'");
-		if (!$results)
-			return null;
-		return $results[0];
+		if (!isset($this->cache[$partnerId]))
+		{
+			$results = $this->executeQuery("SELECT admin_secret FROM partner WHERE partner.ID = '".str_replace("'", "''", $partnerId)."'");
+			if (!$results)
+				return null;
+			if (count($this->cache) > 100)
+			{
+				array_shift($this->cache);
+			}
+			$this->cache[$partnerId] = $results[0];
+		}
+		
+		return $this->cache[$partnerId];
 	}
 }

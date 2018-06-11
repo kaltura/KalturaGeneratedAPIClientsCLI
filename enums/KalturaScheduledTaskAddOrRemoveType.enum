@@ -1,1 +1,1 @@
-a:2:{i:0;a:2:{s:4:"name";s:3:"ADD";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:6:"REMOVE";s:5:"value";s:1:"2";}}
+a:3:{i:0;a:2:{s:4:"name";s:3:"ADD";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:6:"REMOVE";s:5:"value";s:1:"2";}i:2;a:2:{s:4:"name";s:4:"MOVE";s:5:"value";s:1:"3";}}

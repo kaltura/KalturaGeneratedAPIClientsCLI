@@ -1,1 +1,1 @@
-a:4:{i:0;s:14:"updatePassword";i:1;s:13:"resetPassword";i:2;s:5:"login";i:3;s:18:"setInitialPassword";}
+a:4:{i:0;s:5:"login";i:1;s:13:"resetPassword";i:2;s:18:"setInitialPassword";i:3;s:14:"updatePassword";}

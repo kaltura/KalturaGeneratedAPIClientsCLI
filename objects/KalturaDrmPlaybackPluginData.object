@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:6:"scheme";a:3:{s:4:"name";s:6:"scheme";s:4:"type";s:6:"string";s:8:"enumType";s:20:"KalturaDrmSchemeName";}s:10:"licenseURL";a:2:{s:4:"name";s:10:"licenseURL";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:2:{i:0;s:28:"KalturaDrmPlaybackPluginData";i:1;s:33:"KalturaFairPlayPlaybackPluginData";}}

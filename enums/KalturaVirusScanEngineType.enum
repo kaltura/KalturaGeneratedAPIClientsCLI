@@ -1,1 +1,1 @@
-a:1:{i:0;a:2:{s:4:"name";s:18:"CLAMAV_SCAN_ENGINE";s:5:"value";s:23:"clamAVScanEngine.ClamAV";}}
+a:4:{i:0;a:2:{s:4:"name";s:18:"CLAMAV_SCAN_ENGINE";s:5:"value";s:23:"clamAVScanEngine.ClamAV";}i:1;a:2:{s:4:"name";s:27:"SYMANTEC_SCAN_DIRECT_ENGINE";s:5:"value";s:43:"symantecScanEngine.SymantecScanDirectEngine";}i:2;a:2:{s:4:"name";s:20:"SYMANTEC_SCAN_ENGINE";s:5:"value";s:37:"symantecScanEngine.SymantecScanEngine";}i:3;a:2:{s:4:"name";s:25:"SYMANTEC_SCAN_JAVA_ENGINE";s:5:"value";s:41:"symantecScanEngine.SymantecScanJavaEngine";}}

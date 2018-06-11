@@ -1,0 +1,1 @@
+a:5:{i:0;a:2:{s:4:"name";s:11:"EXACT_MATCH";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:7:"PARTIAL";s:5:"value";s:1:"2";}i:2;a:2:{s:4:"name";s:11:"STARTS_WITH";s:5:"value";s:1:"3";}i:3;a:2:{s:4:"name";s:6:"EXISTS";s:5:"value";s:1:"4";}i:4;a:2:{s:4:"name";s:5:"RANGE";s:5:"value";s:1:"5";}}

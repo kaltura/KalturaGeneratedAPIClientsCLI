@@ -1,1 +1,1 @@
-a:4:{i:0;s:7:"collect";i:1;s:10:"kmcCollect";i:2;s:14:"reportKceError";i:3;s:11:"reportError";}
+a:5:{i:0;s:7:"collect";i:1;s:10:"kmcCollect";i:2;s:24:"reportDeviceCapabilities";i:3;s:11:"reportError";i:4;s:14:"reportKceError";}

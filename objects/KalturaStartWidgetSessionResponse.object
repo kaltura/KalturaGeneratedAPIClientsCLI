@@ -1,1 +1,1 @@
-a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:1:{i:0;s:33:"KalturaStartWidgetSessionResponse";}}
+a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:2:{i:0;s:33:"KalturaStartWidgetSessionResponse";i:1;s:22:"KalturaSessionResponse";}}

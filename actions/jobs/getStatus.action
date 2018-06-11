@@ -1,0 +1,1 @@
+a:3:{s:5:"jobId";a:2:{s:4:"name";s:5:"jobId";s:4:"type";s:3:"int";}s:7:"jobType";a:3:{s:4:"name";s:7:"jobType";s:4:"type";s:6:"string";s:8:"enumType";s:19:"KalturaBatchJobType";}s:5:"pager";a:2:{s:4:"name";s:5:"pager";s:4:"type";s:18:"KalturaFilterPager";}}

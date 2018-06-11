@@ -1,0 +1,1 @@
+a:2:{s:15:"bulkUploadJobId";a:2:{s:4:"name";s:15:"bulkUploadJobId";s:4:"type";s:3:"int";}s:20:"bulkUploadObjectType";a:3:{s:4:"name";s:20:"bulkUploadObjectType";s:4:"type";s:6:"string";s:8:"enumType";s:27:"KalturaBulkUploadObjectType";}}

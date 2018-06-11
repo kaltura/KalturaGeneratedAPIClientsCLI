@@ -1,0 +1,1 @@
+a:5:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:6:"string";}s:9:"tokenHash";a:2:{s:4:"name";s:9:"tokenHash";s:4:"type";s:6:"string";}s:6:"userId";a:2:{s:4:"name";s:6:"userId";s:4:"type";s:6:"string";}s:4:"type";a:3:{s:4:"name";s:4:"type";s:4:"type";s:3:"int";s:8:"enumType";s:18:"KalturaSessionType";}s:6:"expiry";a:2:{s:4:"name";s:6:"expiry";s:4:"type";s:3:"int";}}

@@ -1,0 +1,1 @@
+a:4:{s:17:"metadataProfileId";a:2:{s:4:"name";s:17:"metadataProfileId";s:4:"type";s:3:"int";}s:10:"srcVersion";a:2:{s:4:"name";s:10:"srcVersion";s:4:"type";s:3:"int";}s:11:"destVersion";a:2:{s:4:"name";s:11:"destVersion";s:4:"type";s:3:"int";}s:5:"pager";a:2:{s:4:"name";s:5:"pager";s:4:"type";s:18:"KalturaFilterPager";}}

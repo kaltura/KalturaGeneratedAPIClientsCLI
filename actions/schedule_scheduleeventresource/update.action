@@ -1,0 +1,1 @@
+a:3:{s:15:"scheduleEventId";a:2:{s:4:"name";s:15:"scheduleEventId";s:4:"type";s:3:"int";}s:18:"scheduleResourceId";a:2:{s:4:"name";s:18:"scheduleResourceId";s:4:"type";s:3:"int";}s:21:"scheduleEventResource";a:2:{s:4:"name";s:21:"scheduleEventResource";s:4:"type";s:28:"KalturaScheduleEventResource";}}

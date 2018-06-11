@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:5:"field";a:2:{s:4:"name";s:5:"field";s:4:"type";s:6:"string";}s:5:"value";a:2:{s:4:"name";s:5:"value";s:4:"type";s:6:"string";}s:3:"not";a:2:{s:4:"name";s:3:"not";s:4:"type";s:4:"bool";}}s:12:"derivedTypes";a:1:{i:0;s:27:"KalturaSearchMatchCondition";}}

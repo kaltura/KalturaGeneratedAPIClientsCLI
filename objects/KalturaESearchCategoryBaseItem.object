@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:7:{i:0;s:30:"KalturaESearchCategoryBaseItem";i:1;s:30:"KalturaESearchCategoryOperator";i:2;s:34:"KalturaESearchAbstractCategoryItem";i:3;s:26:"KalturaESearchCategoryItem";i:4;s:34:"KalturaESearchCategoryMetadataItem";i:5;s:30:"KalturaESearchCategoryUserItem";i:6;s:27:"KalturaESearchCategoryQuery";}}

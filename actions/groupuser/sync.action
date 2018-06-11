@@ -1,0 +1,1 @@
+a:4:{s:6:"userId";a:2:{s:4:"name";s:6:"userId";s:4:"type";s:6:"string";}s:8:"groupIds";a:2:{s:4:"name";s:8:"groupIds";s:4:"type";s:6:"string";}s:24:"removeFromExistingGroups";a:2:{s:4:"name";s:24:"removeFromExistingGroups";s:4:"type";s:4:"bool";}s:15:"createNewGroups";a:2:{s:4:"name";s:15:"createNewGroups";s:4:"type";s:4:"bool";}}

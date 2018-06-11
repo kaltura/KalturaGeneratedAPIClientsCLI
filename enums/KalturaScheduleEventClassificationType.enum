@@ -1,0 +1,1 @@
+a:3:{i:0;a:2:{s:4:"name";s:12:"PUBLIC_EVENT";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:13:"PRIVATE_EVENT";s:5:"value";s:1:"2";}i:2;a:2:{s:4:"name";s:18:"CONFIDENTIAL_EVENT";s:5:"value";s:1:"3";}}

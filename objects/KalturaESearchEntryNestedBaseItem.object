@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:6:{i:0;s:33:"KalturaESearchEntryNestedBaseItem";i:1;s:37:"KalturaESearchEntryAbstractNestedItem";i:2;s:25:"KalturaESearchCaptionItem";i:3;s:26:"KalturaESearchCuePointItem";i:4;s:31:"KalturaESearchEntryMetadataItem";i:5;s:28:"KalturaESearchNestedOperator";}}

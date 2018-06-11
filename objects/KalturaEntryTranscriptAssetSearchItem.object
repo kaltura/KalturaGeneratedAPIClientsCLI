@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:11:"contentLike";a:2:{s:4:"name";s:11:"contentLike";s:4:"type";s:6:"string";}s:18:"contentMultiLikeOr";a:2:{s:4:"name";s:18:"contentMultiLikeOr";s:4:"type";s:6:"string";}s:19:"contentMultiLikeAnd";a:2:{s:4:"name";s:19:"contentMultiLikeAnd";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:37:"KalturaEntryTranscriptAssetSearchItem";}}
