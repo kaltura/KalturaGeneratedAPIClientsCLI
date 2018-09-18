@@ -1,1 +1,1 @@
-a:9:{i:0;s:3:"add";i:1;s:6:"delete";i:2;s:7:"disable";i:3;s:6:"enable";i:4;s:3:"get";i:5;s:4:"list";i:6;s:11:"markOffline";i:7;s:12:"reportStatus";i:8;s:6:"update";}
+a:10:{i:0;s:3:"add";i:1;s:6:"delete";i:2;s:7:"disable";i:3;s:6:"enable";i:4;s:3:"get";i:5;s:11:"getFullPath";i:6;s:4:"list";i:7;s:11:"markOffline";i:8;s:12:"reportStatus";i:9;s:6:"update";}

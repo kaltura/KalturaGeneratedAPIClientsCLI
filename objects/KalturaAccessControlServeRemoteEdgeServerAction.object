@@ -1,1 +1,1 @@
-a:2:{s:10:"properties";a:1:{s:13:"edgeServerIds";a:2:{s:4:"name";s:13:"edgeServerIds";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:47:"KalturaAccessControlServeRemoteEdgeServerAction";}}
+a:2:{s:10:"properties";a:2:{s:13:"edgeServerIds";a:2:{s:4:"name";s:13:"edgeServerIds";s:4:"type";s:6:"string";}s:23:"seamlessFallbackEnabled";a:3:{s:4:"name";s:23:"seamlessFallbackEnabled";s:4:"type";s:3:"int";s:8:"enumType";s:22:"KalturaNullableBoolean";}}s:12:"derivedTypes";a:1:{i:0;s:47:"KalturaAccessControlServeRemoteEdgeServerAction";}}
