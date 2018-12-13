@@ -2,5 +2,8 @@ language: php
 php:
   - "5.5"
   - "5.4"
-  - "5.3"
-script: ./setup.sh ~/kaltura/cli 54.163.254.64 101 066439f83615896a16efce529b84fcfb && ./tests/sanity.sh ~/kaltura/cli 101
+  - "5.6"
+  - "7.0"
+  - "7.1"
+script: 
+    - ./setup.sh ~/kaltura/cli https://www.kaltura.com $PARTNER_ID $ADMIN_SECRET && ./tests/sanity.sh ~/kaltura/cli $PARTNER_ID
