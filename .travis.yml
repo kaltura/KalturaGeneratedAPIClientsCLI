@@ -2,6 +2,8 @@ language: php
 php:
   - "5.5"
   - "5.4"
-  - "5.3"
+  - "5.6"
+  - "7.0"
+  - "7.1"
 script: 
     - ./setup.sh ~/kaltura/cli https://www.kaltura.com $PARTNER_ID $ADMIN_SECRET && ./tests/sanity.sh ~/kaltura/cli $PARTNER_ID
