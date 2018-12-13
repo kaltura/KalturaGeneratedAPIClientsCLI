@@ -4,4 +4,4 @@ php:
   - "5.4"
   - "5.3"
 script: 
-    - ./setup.sh ~/kaltura/cli 54.163.254.64 $PARTNER_ID $ADMIN_SECRET && ./tests/sanity.sh ~/kaltura/cli $PARTNER_ID
+    - ./setup.sh ~/kaltura/cli https://www.kaltura.com $PARTNER_ID $ADMIN_SECRET && ./tests/sanity.sh ~/kaltura/cli $PARTNER_ID
