@@ -1,1 +1,1 @@
-a:2:{s:6:"filter";a:2:{s:4:"name";s:6:"filter";s:4:"type";s:34:"KalturaScheduleEventResourceFilter";}s:5:"pager";a:2:{s:4:"name";s:5:"pager";s:4:"type";s:18:"KalturaFilterPager";}}
+a:3:{s:6:"filter";a:2:{s:4:"name";s:6:"filter";s:4:"type";s:34:"KalturaScheduleEventResourceFilter";}s:5:"pager";a:2:{s:4:"name";s:5:"pager";s:4:"type";s:18:"KalturaFilterPager";}s:23:"filterBlackoutConflicts";a:2:{s:4:"name";s:23:"filterBlackoutConflicts";s:4:"type";s:4:"bool";}}
