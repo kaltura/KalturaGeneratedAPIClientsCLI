@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:20:"searchTermStartsWith";a:2:{s:4:"name";s:20:"searchTermStartsWith";s:4:"type";s:6:"string";}s:16:"searchedObjectIn";a:2:{s:4:"name";s:16:"searchedObjectIn";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:27:"KalturaESearchHistoryFilter";}}

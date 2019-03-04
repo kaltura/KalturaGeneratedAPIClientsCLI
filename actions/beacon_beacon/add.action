@@ -1,0 +1,1 @@
+a:2:{s:6:"beacon";a:2:{s:4:"name";s:6:"beacon";s:4:"type";s:13:"KalturaBeacon";}s:9:"shouldLog";a:3:{s:4:"name";s:9:"shouldLog";s:4:"type";s:3:"int";s:8:"enumType";s:22:"KalturaNullableBoolean";}}

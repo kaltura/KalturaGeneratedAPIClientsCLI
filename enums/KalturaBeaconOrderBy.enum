@@ -1,0 +1,1 @@
+a:4:{i:0;a:2:{s:4:"name";s:13:"OBJECT_ID_ASC";s:5:"value";s:9:"+objectId";}i:1;a:2:{s:4:"name";s:14:"UPDATED_AT_ASC";s:5:"value";s:10:"+updatedAt";}i:2;a:2:{s:4:"name";s:14:"OBJECT_ID_DESC";s:5:"value";s:9:"-objectId";}i:3;a:2:{s:4:"name";s:15:"UPDATED_AT_DESC";s:5:"value";s:10:"-updatedAt";}}
