@@ -1,0 +1,1 @@
+a:2:{i:0;a:2:{s:4:"name";s:16:"PRICE_PER_MINUTE";s:5:"value";s:31:"kReachUtils::calcPricePerMinute";}i:1;a:2:{s:4:"name";s:16:"PRICE_PER_SECOND";s:5:"value";s:31:"kReachUtils::calcPricePerSecond";}}
