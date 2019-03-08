@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:11:"description";a:2:{s:4:"name";s:11:"description";s:4:"type";s:6:"string";}s:3:"not";a:2:{s:4:"name";s:3:"not";s:4:"type";s:4:"bool";}s:27:"booleanEventNotificationIds";a:2:{s:4:"name";s:27:"booleanEventNotificationIds";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:40:"KalturaBooleanEventNotificationCondition";}}
