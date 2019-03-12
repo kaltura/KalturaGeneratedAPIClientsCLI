@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:9:"sortOrder";a:3:{s:4:"name";s:9:"sortOrder";s:4:"type";s:6:"string";s:8:"enumType";s:23:"KalturaESearchSortOrder";}s:9:"sortField";a:3:{s:4:"name";s:9:"sortField";s:4:"type";s:6:"string";s:8:"enumType";s:35:"KalturaESearchGroupOrderByFieldName";}}s:12:"derivedTypes";a:1:{i:0;s:30:"KalturaESearchGroupOrderByItem";}}
