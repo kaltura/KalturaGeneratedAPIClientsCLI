@@ -33,7 +33,8 @@ kalcli -x media list ks=$KS
 report "media->list()" $?
 SOME_ENTRY_ID=`kalcli -x baseentry list pager:objectType=KalturaFilterPager pager:pageSize=1 filter:objectType=KalturaBaseEntryFilter   filter:typeEqual=1 ks=$KS|awk '$1 == "id" {print $2}'`
 report "baseentry->list()" $?
-kalcli -x baseentry updateThumbnailFromSourceEntry  entryId=$SOME_ENTRY_ID sourceEntryId=$SOME_ENTRY_ID ks=$KS  timeOffset=3
+echo -e "${BRIGHT_BLUE}About to call 'kalcli -xi baseentry updateThumbnailFromSourceEntry'${NORMAL}"
+kalcli -xi baseentry updateThumbnailFromSourceEntry  entryId=$SOME_ENTRY_ID sourceEntryId=$SOME_ENTRY_ID ks=$KS  timeOffset=3
 report "baseentry->updateThumbnailFromSourceEntry()" $? 
 TOKEN=`kalcli -x uploadtoken add uploadToken:objectType=KalturaUploadToken uploadToken:fileName=$TEST_FLV  ks=$KS|awk '$1 == "id" {print $2}'`
 report "uploadtoken->add()" $?
