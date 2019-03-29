@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:14:"referenceJobId";a:2:{s:4:"name";s:14:"referenceJobId";s:4:"type";s:6:"bigint";}s:11:"reportEmail";a:2:{s:4:"name";s:11:"reportEmail";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:27:"KalturaReportExportResponse";}}

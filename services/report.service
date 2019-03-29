@@ -1,1 +1,1 @@
-a:9:{i:0;s:7:"execute";i:1;s:12:"getBaseTotal";i:2;s:6:"getCsv";i:3;s:22:"getCsvFromStringParams";i:4;s:9:"getGraphs";i:5;s:8:"getTable";i:6;s:8:"getTotal";i:7;s:20:"getUrlForReportAsCsv";i:8;s:5:"serve";}
+a:10:{i:0;s:7:"execute";i:1;s:11:"exportToCsv";i:2;s:12:"getBaseTotal";i:3;s:6:"getCsv";i:4;s:22:"getCsvFromStringParams";i:5;s:9:"getGraphs";i:6;s:8:"getTable";i:7;s:8:"getTotal";i:8;s:20:"getUrlForReportAsCsv";i:9;s:5:"serve";}
