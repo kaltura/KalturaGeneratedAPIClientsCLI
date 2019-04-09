@@ -1,1 +1,1 @@
-a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:2:{i:0;s:22:"KalturaBulkServiceData";i:1;s:28:"KalturaBulkServiceFilterData";}}
+a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:3:{i:0;s:22:"KalturaBulkServiceData";i:1;s:32:"KalturaBulkServiceFilterDataBase";i:2;s:28:"KalturaBulkServiceFilterData";}}
