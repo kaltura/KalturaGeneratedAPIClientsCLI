@@ -1,1 +1,1 @@
-a:5:{i:0;s:3:"add";i:1;s:3:"get";i:2;s:11:"getMapNames";i:3;s:4:"list";i:4;s:6:"update";}
+a:6:{i:0;s:3:"add";i:1;s:3:"get";i:2;s:17:"getCacheVersionId";i:3;s:11:"getMapNames";i:4;s:4:"list";i:5;s:6:"update";}
