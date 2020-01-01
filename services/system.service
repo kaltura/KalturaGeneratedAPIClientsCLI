@@ -1,1 +1,1 @@
-a:4:{i:0;s:7:"getTime";i:1;s:10:"getVersion";i:2;s:4:"ping";i:3;s:12:"pingDatabase";}
+a:5:{i:0;s:14:"getHealthCheck";i:1;s:7:"getTime";i:2;s:10:"getVersion";i:3;s:4:"ping";i:4;s:12:"pingDatabase";}
