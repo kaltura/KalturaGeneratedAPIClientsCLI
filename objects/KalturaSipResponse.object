@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:6:"action";a:2:{s:4:"name";s:6:"action";s:4:"type";s:6:"string";}s:9:"sessionId";a:2:{s:4:"name";s:9:"sessionId";s:4:"type";s:6:"string";}s:8:"hostName";a:2:{s:4:"name";s:8:"hostName";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:18:"KalturaSipResponse";}}

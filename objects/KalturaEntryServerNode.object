@@ -1,1 +1,1 @@
-a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:4:{i:0;s:22:"KalturaEntryServerNode";i:1;s:26:"KalturaLiveEntryServerNode";i:2;s:26:"KalturaTaskEntryServerNode";i:3;s:34:"KalturaClippingTaskEntryServerNode";}}
+a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:6:{i:0;s:22:"KalturaEntryServerNode";i:1;s:32:"KalturaConferenceEntryServerNode";i:2;s:26:"KalturaLiveEntryServerNode";i:3;s:25:"KalturaSipEntryServerNode";i:4;s:26:"KalturaTaskEntryServerNode";i:5;s:34:"KalturaClippingTaskEntryServerNode";}}

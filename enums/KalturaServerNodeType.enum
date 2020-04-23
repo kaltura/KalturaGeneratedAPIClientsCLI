@@ -1,1 +1,1 @@
-a:2:{i:0;a:2:{s:4:"name";s:18:"WOWZA_MEDIA_SERVER";s:5:"value";s:24:"wowza.WOWZA_MEDIA_SERVER";}i:1;a:2:{s:4:"name";s:4:"EDGE";s:5:"value";s:1:"1";}}
+a:5:{i:0;a:2:{s:4:"name";s:17:"CONFERENCE_SERVER";s:5:"value";s:28:"conference.CONFERENCE_SERVER";}i:1;a:2:{s:4:"name";s:25:"LIVE_CLUSTER_MEDIA_SERVER";s:5:"value";s:37:"liveCluster.LIVE_CLUSTER_MEDIA_SERVER";}i:2;a:2:{s:4:"name";s:10:"SIP_SERVER";s:5:"value";s:14:"sip.SIP_SERVER";}i:3;a:2:{s:4:"name";s:18:"WOWZA_MEDIA_SERVER";s:5:"value";s:24:"wowza.WOWZA_MEDIA_SERVER";}i:4;a:2:{s:4:"name";s:4:"EDGE";s:5:"value";s:1:"1";}}

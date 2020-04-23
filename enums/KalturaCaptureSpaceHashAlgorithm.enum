@@ -1,0 +1,1 @@
+a:4:{i:0;a:2:{s:4:"name";s:3:"MD5";s:5:"value";s:3:"md5";}i:1;a:2:{s:4:"name";s:4:"SHA1";s:5:"value";s:4:"sha1";}i:2;a:2:{s:4:"name";s:6:"SHA256";s:5:"value";s:6:"sha256";}i:3;a:2:{s:4:"name";s:6:"SHA512";s:5:"value";s:6:"sha512";}}
