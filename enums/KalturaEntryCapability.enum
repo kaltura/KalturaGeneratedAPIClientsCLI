@@ -1,1 +1,1 @@
-a:1:{i:0;a:2:{s:4:"name";s:28:"KALTURA_QUIZ_CAPABILITY_NAME";s:5:"value";s:9:"quiz.quiz";}}
+a:2:{i:0;a:2:{s:4:"name";s:37:"KALTURA_INTERACTIVITY_CAPABILITY_NAME";s:5:"value";s:27:"interactivity.interactivity";}i:1;a:2:{s:4:"name";s:28:"KALTURA_QUIZ_CAPABILITY_NAME";s:5:"value";s:9:"quiz.quiz";}}

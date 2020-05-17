@@ -1,0 +1,1 @@
+a:5:{s:6:"filter";a:2:{s:4:"name";s:6:"filter";s:4:"type";s:21:"KalturaFileSyncFilter";}s:8:"workerId";a:2:{s:4:"name";s:8:"workerId";s:4:"type";s:3:"int";}s:16:"storageProfileId";a:2:{s:4:"name";s:16:"storageProfileId";s:4:"type";s:3:"int";}s:8:"maxCount";a:2:{s:4:"name";s:8:"maxCount";s:4:"type";s:3:"int";}s:7:"maxSize";a:2:{s:4:"name";s:7:"maxSize";s:4:"type";s:3:"int";}}
