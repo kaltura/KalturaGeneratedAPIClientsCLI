@@ -1,1 +1,1 @@
-a:1:{s:7:"entryId";a:2:{s:4:"name";s:7:"entryId";s:4:"type";s:6:"string";}}
+a:2:{s:7:"entryId";a:2:{s:4:"name";s:7:"entryId";s:4:"type";s:6:"string";}s:10:"dataFilter";a:2:{s:4:"name";s:10:"dataFilter";s:4:"type";s:30:"KalturaInteractivityDataFilter";}}
