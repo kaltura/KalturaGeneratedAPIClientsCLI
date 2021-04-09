@@ -1,1 +1,0 @@
-a:3:{s:2:"os";a:2:{s:4:"name";s:2:"os";s:4:"type";s:6:"string";}s:7:"version";a:2:{s:4:"name";s:7:"version";s:4:"type";s:6:"string";}s:13:"hashAlgorithm";a:3:{s:4:"name";s:13:"hashAlgorithm";s:4:"type";s:6:"string";s:8:"enumType";s:32:"KalturaCaptureSpaceHashAlgorithm";}}
