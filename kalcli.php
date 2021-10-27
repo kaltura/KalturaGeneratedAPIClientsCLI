@@ -187,7 +187,7 @@ if (count($arguments) < 2)
 $service = trim($arguments[0]);
 $action = trim($arguments[1]);
 
-$params = array('clientTag' => 'kalcli:21-10-26');
+$params = array('clientTag' => 'kalcli:21-10-27');
 $extraArgCount = count($arguments);
 for ($curIndex = 2; $curIndex < $extraArgCount; $curIndex++)
 {
