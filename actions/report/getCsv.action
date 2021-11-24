@@ -1,1 +1,1 @@
-a:2:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:3:"int";}s:6:"params";a:3:{s:4:"name";s:6:"params";s:4:"type";s:5:"array";s:9:"arrayType";s:15:"KalturaKeyValue";}}
+a:3:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:3:"int";}s:6:"params";a:3:{s:4:"name";s:6:"params";s:4:"type";s:5:"array";s:9:"arrayType";s:15:"KalturaKeyValue";}s:14:"excludedFields";a:2:{s:4:"name";s:14:"excludedFields";s:4:"type";s:6:"string";}}
