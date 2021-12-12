@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:12:"emailSubject";a:2:{s:4:"name";s:12:"emailSubject";s:4:"type";s:6:"string";}s:9:"emailBody";a:2:{s:4:"name";s:9:"emailBody";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:27:"KalturaDynamicEmailContents";}}
