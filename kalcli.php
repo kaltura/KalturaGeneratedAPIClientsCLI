@@ -187,7 +187,7 @@ if (count($arguments) < 2)
 $service = trim($arguments[0]);
 $action = trim($arguments[1]);
 
-$params = array('clientTag' => 'kalcli:22-03-27');
+$params = array('clientTag' => 'kalcli:22-03-28');
 $extraArgCount = count($arguments);
 for ($curIndex = 2; $curIndex < $extraArgCount; $curIndex++)
 {
@@ -347,7 +347,7 @@ if (isset($options['log']))
 	
 	$logPortion = file_get_contents(API_LOG_FILENAME, false, null, $initialLogSize, $currentLogSize - $initialLogSize);
 	
-	if (preg_match('/X-Kaltura-Session: (\d+)/', $curlWrapper->responseHeaders, $matches))
+	if (preg_match('/x-kaltura-session: (\d+)/', strtolower($curlWrapper->responseHeaders), $matches))
 	{
 		$sessionId = $matches[1];
 		printLogFiltered($logPortion, $sessionId);
