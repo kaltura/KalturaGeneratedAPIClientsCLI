@@ -1,1 +1,1 @@
-a:2:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:6:"bigint";}s:13:"accessControl";a:2:{s:4:"name";s:13:"accessControl";s:4:"type";s:20:"KalturaAccessControl";}}
+a:2:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:3:"int";}s:13:"accessControl";a:2:{s:4:"name";s:13:"accessControl";s:4:"type";s:20:"KalturaAccessControl";}}

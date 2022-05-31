@@ -1,1 +1,1 @@
-a:3:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:6:"bigint";}s:7:"lockKey";a:2:{s:4:"name";s:7:"lockKey";s:4:"type";s:23:"KalturaExclusiveLockKey";}s:3:"job";a:2:{s:4:"name";s:3:"job";s:4:"type";s:15:"KalturaBatchJob";}}
+a:3:{s:2:"id";a:2:{s:4:"name";s:2:"id";s:4:"type";s:3:"int";}s:7:"lockKey";a:2:{s:4:"name";s:7:"lockKey";s:4:"type";s:23:"KalturaExclusiveLockKey";}s:3:"job";a:2:{s:4:"name";s:3:"job";s:4:"type";s:15:"KalturaBatchJob";}}
