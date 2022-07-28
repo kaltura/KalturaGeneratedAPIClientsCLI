@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:9:"startDate";a:2:{s:4:"name";s:9:"startDate";s:4:"type";s:3:"int";}s:7:"endDate";a:2:{s:4:"name";s:7:"endDate";s:4:"type";s:3:"int";}s:16:"scheduledEventId";a:2:{s:4:"name";s:16:"scheduledEventId";s:4:"type";s:3:"int";}}s:12:"derivedTypes";a:1:{i:0;s:30:"KalturaScheduledVendorTaskData";}}
