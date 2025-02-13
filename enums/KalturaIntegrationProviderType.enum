@@ -1,1 +1,1 @@
-a:2:{i:0;a:2:{s:4:"name";s:7:"CIELO24";s:5:"value";s:15:"cielo24.Cielo24";}i:1;a:2:{s:4:"name";s:9:"VOICEBASE";s:5:"value";s:19:"voicebase.Voicebase";}}
+a:4:{i:0;a:2:{s:4:"name";s:7:"CIELO24";s:5:"value";s:15:"cielo24.Cielo24";}i:1;a:2:{s:4:"name";s:6:"DEXTER";s:5:"value";s:24:"dexterIntegration.Dexter";}i:2;a:2:{s:4:"name";s:7:"EXAMPLE";s:5:"value";s:26:"exampleIntegration.Example";}i:3;a:2:{s:4:"name";s:9:"VOICEBASE";s:5:"value";s:19:"voicebase.Voicebase";}}

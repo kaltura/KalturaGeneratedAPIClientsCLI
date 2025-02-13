@@ -1,1 +1,1 @@
-a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:3:{i:0;s:33:"KalturaIntegrationJobProviderData";i:1;s:29:"KalturaCielo24JobProviderData";i:2;s:31:"KalturaVoicebaseJobProviderData";}}
+a:2:{s:10:"properties";a:0:{}s:12:"derivedTypes";a:5:{i:0;s:33:"KalturaIntegrationJobProviderData";i:1;s:29:"KalturaCielo24JobProviderData";i:2;s:39:"KalturaDexterIntegrationJobProviderData";i:3;s:40:"KalturaExampleIntegrationJobProviderData";i:4;s:31:"KalturaVoicebaseJobProviderData";}}

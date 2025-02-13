@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:7:"appGuid";a:2:{s:4:"name";s:7:"appGuid";s:4:"type";s:6:"string";}s:10:"userRoleId";a:2:{s:4:"name";s:10:"userRoleId";s:4:"type";s:3:"int";}s:6:"userId";a:2:{s:4:"name";s:6:"userId";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:18:"KalturaUserAppRole";}}

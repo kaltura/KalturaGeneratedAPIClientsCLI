@@ -1,1 +1,1 @@
-a:3:{i:0;a:2:{s:4:"name";s:3:"XML";s:5:"value";s:27:"dropFolderXmlBulkUpload.XML";}i:1;a:2:{s:4:"name";s:4:"ICAL";s:5:"value";s:23:"scheduleDropFolder.ICAL";}i:2;a:2:{s:4:"name";s:7:"CONTENT";s:5:"value";s:1:"1";}}
+a:4:{i:0;a:2:{s:4:"name";s:6:"TR_RDS";s:5:"value";s:26:"TrRdsSyncDropFolder.TR_RDS";}i:1;a:2:{s:4:"name";s:3:"XML";s:5:"value";s:27:"dropFolderXmlBulkUpload.XML";}i:2;a:2:{s:4:"name";s:4:"ICAL";s:5:"value";s:23:"scheduleDropFolder.ICAL";}i:3;a:2:{s:4:"name";s:7:"CONTENT";s:5:"value";s:1:"1";}}

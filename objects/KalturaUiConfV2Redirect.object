@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:3:{s:4:"v7id";a:2:{s:4:"name";s:4:"v7id";s:4:"type";s:3:"int";}s:10:"isApproved";a:2:{s:4:"name";s:10:"isApproved";s:4:"type";s:4:"bool";}s:16:"translatePlugins";a:2:{s:4:"name";s:16:"translatePlugins";s:4:"type";s:4:"bool";}}s:12:"derivedTypes";a:1:{i:0;s:23:"KalturaUiConfV2Redirect";}}

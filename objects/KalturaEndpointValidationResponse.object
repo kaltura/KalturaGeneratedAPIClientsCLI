@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:10:"plainToken";a:2:{s:4:"name";s:10:"plainToken";s:4:"type";s:6:"string";}s:14:"encryptedToken";a:2:{s:4:"name";s:14:"encryptedToken";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:33:"KalturaEndpointValidationResponse";}}

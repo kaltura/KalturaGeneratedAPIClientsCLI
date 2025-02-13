@@ -1,1 +1,1 @@
-a:2:{i:0;a:2:{s:4:"name";s:12:"ZOOM_ACCOUNT";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:17:"WEBEX_API_ACCOUNT";s:5:"value";s:1:"2";}}
+a:3:{i:0;a:2:{s:4:"name";s:8:"MS_TEAMS";s:5:"value";s:33:"MicrosoftTeamsDropFolder.MS_TEAMS";}i:1;a:2:{s:4:"name";s:12:"ZOOM_ACCOUNT";s:5:"value";s:1:"1";}i:2;a:2:{s:4:"name";s:17:"WEBEX_API_ACCOUNT";s:5:"value";s:1:"2";}}
