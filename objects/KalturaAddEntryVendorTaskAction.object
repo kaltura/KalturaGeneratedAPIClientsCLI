@@ -1,1 +1,1 @@
-a:2:{s:10:"properties";a:1:{s:14:"catalogItemIds";a:2:{s:4:"name";s:14:"catalogItemIds";s:4:"type";s:6:"string";}}s:12:"derivedTypes";a:1:{i:0;s:31:"KalturaAddEntryVendorTaskAction";}}
+a:2:{s:10:"properties";a:2:{s:14:"catalogItemIds";a:2:{s:4:"name";s:14:"catalogItemIds";s:4:"type";s:6:"string";}s:15:"entryObjectType";a:3:{s:4:"name";s:15:"entryObjectType";s:4:"type";s:3:"int";s:8:"enumType";s:22:"KalturaEntryObjectType";}}s:12:"derivedTypes";a:1:{i:0;s:31:"KalturaAddEntryVendorTaskAction";}}
