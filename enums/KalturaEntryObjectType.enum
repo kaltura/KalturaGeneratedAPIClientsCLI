@@ -1,1 +1,1 @@
-a:2:{i:0;a:2:{s:4:"name";s:5:"ENTRY";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:5:"ASSET";s:5:"value";s:1:"2";}}
+a:3:{i:0;a:2:{s:4:"name";s:5:"ENTRY";s:5:"value";s:1:"1";}i:1;a:2:{s:4:"name";s:5:"ASSET";s:5:"value";s:1:"2";}i:2;a:2:{s:4:"name";s:15:"EXTERNAL_OBJECT";s:5:"value";s:1:"3";}}
