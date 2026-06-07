@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:15:"scalePercentage";a:2:{s:4:"name";s:15:"scalePercentage";s:4:"type";s:27:"KalturaDimensionsPercentage";}s:13:"scaleBehavior";a:3:{s:4:"name";s:13:"scaleBehavior";s:4:"type";s:3:"int";s:8:"enumType";s:27:"KalturaOverlayScaleBehavior";}}s:12:"derivedTypes";a:1:{i:0;s:28:"KalturaOverlayScaleAttribute";}}
