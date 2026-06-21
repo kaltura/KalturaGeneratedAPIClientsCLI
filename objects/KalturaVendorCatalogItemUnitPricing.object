@@ -1,0 +1,1 @@
+a:2:{s:10:"properties";a:2:{s:11:"serviceName";a:2:{s:4:"name";s:11:"serviceName";s:4:"type";s:6:"string";}s:9:"priceUnit";a:2:{s:4:"name";s:9:"priceUnit";s:4:"type";s:31:"KalturaVendorCatalogItemPricing";}}s:12:"derivedTypes";a:1:{i:0;s:35:"KalturaVendorCatalogItemUnitPricing";}}
