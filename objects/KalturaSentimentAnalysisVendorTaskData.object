@@ -1,1 +1,1 @@
-a:2:{s:10:"properties";a:1:{s:8:"language";a:3:{s:4:"name";s:8:"language";s:4:"type";s:6:"string";s:8:"enumType";s:19:"KalturaLanguageCode";}}s:12:"derivedTypes";a:1:{i:0;s:38:"KalturaSentimentAnalysisVendorTaskData";}}
+a:2:{s:10:"properties";a:2:{s:13:"vendorComment";a:2:{s:4:"name";s:13:"vendorComment";s:4:"type";s:6:"string";}s:8:"language";a:3:{s:4:"name";s:8:"language";s:4:"type";s:6:"string";s:8:"enumType";s:19:"KalturaLanguageCode";}}s:12:"derivedTypes";a:1:{i:0;s:38:"KalturaSentimentAnalysisVendorTaskData";}}
